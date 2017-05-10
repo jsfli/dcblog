@@ -16,6 +16,16 @@
     <%= form.text_area :body, id: :portfolio_body %>
   </div>
 
+  <ul>
+    <!-- #nested forms and nested attributes for forms -->
+    <%= form.fields_for :technologies do |technology_form| %>
+    <li>
+      <%= technology_form.label :name %>
+      <%= technology_form.text_field :name %>
+    </li>
+    <% end %>
+  </ul>
+
   <div class="actions">
     <%= form.submit %>
   </div>
