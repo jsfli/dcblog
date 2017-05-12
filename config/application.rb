@@ -27,5 +27,10 @@ module Dcblog
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    ########################################################
+    ####use the below code if you want to override the default parameters whitelist feature
+    # config.action_controller.permit_all_parameters = true
+    ########################################################
   end
 end
