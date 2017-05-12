@@ -1,5 +1,7 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
+  # using blog layout to override application layout default
+  layout "blog"
 
   # GET /blogs
   # GET /blogs.json
