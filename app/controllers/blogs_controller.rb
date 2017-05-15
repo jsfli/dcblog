@@ -6,7 +6,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    @blogs = Blog.all
+    @blogs = Blog.special_blogs
     # default page content concerns over ride
     @page_title = "My Portoflio blog"
   end
