@@ -2,6 +2,8 @@ class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
   # using blog layout to override application layout default
   layout "blog"
+  #petergate gem functionality
+  access all: [:show, :index], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
 
   # GET /blogs
   # GET /blogs.json
