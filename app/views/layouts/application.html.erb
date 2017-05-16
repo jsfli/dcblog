@@ -14,16 +14,16 @@
   </head>
 
   <body>
-    <!-- devise alerts -->
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-
-    <%= render "shared/nav", location: 'top' %>
-    <!-- current user can only be an OpenStruct class or a User class // refer back to application_controller.rb -->
-    <%= login_helper %>
-    <!-- devise alerts -->
-    <%= yield %>
-    <%= copyright_generator %>
-    <%= source_helper("application") %>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <%= render "shared/application_nav" %>
+          <%= login_helper %>
+          <%= yield %>
+          <%= copyright_generator %>
+          <%= source_helper("application") %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
