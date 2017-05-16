@@ -16,8 +16,6 @@ module ApplicationHelper
     end
   end
 
-  before_action :set_copyright
-
   def copyright_generator
     JeffLiViewTool::Renderer.copyright 'Jeffrey Li', 'All rights reserved'
   end
