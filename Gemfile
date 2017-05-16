@@ -55,3 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', github: 'plataformatec/devise'
 gem 'erubis'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'jeff_li_view_tool', git: 'https://github.com/jsfli/jeff_li_view_tool_ruby_gem'

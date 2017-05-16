@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/jsfli/jeff_li_view_tool_ruby_gem
+  revision: fab7c4156c9cb195007337932ff3c5dbc219f559
+  specs:
+    jeff_li_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/plataformatec/devise.git
   revision: a62faa2c8258ba1c35fe84e147f42c35eccccb8a
   specs:
@@ -194,6 +200,7 @@ DEPENDENCIES
   erubis
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
+  jeff_li_view_tool!
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
   pry-byebug
