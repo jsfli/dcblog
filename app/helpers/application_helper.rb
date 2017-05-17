@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    JeffLiViewTool::Renderer.copyright 'Jeffrey Li', 'All rights reserved'
+    JeffLiViewTool::Renderer.copyright 'Lorem Ipsum', 'All rights reserved'
   end
 end
