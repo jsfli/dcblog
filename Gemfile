@@ -59,3 +59,4 @@ gem 'jeff_li_view_tool', git: 'https://github.com/jsfli/jeff_li_view_tool_ruby_g
 gem 'petergate', '~> 1.7', '>= 1.7.3'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
