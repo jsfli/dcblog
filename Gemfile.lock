@@ -106,6 +106,7 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    gritter (1.2.0)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -252,6 +253,7 @@ DEPENDENCIES
   erubis
   font-awesome-rails (~> 4.7, >= 4.7.0.2)
   friendly_id (~> 5.1.0)
+  gritter (~> 1.2)
   jbuilder (~> 2.5)
   jeff_li_view_tool!
   jquery-rails (~> 4.3, >= 4.3.1)
