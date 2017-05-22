@@ -158,7 +158,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -207,4 +207,17 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.job-news {
+  color: black;
+  margin: 10px;
+}
+
+.job-news a {
+  color: red;
+}
+
+.job-news > .card {
+  padding: 20px;
 }

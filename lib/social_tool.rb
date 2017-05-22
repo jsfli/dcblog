@@ -8,7 +8,7 @@ module SocialTool
     end
 
 
-    client.search("#(Hong Kong Jobs)", result_type: 'recent').take(10).collect do |tweet|
+    client.search("#(Hong Kong Jobs)", result_type: 'recent').take(6).collect do |tweet|
       "#{tweet.user.screen_name}: #{tweet.text}"
     end
   end
