@@ -221,3 +221,22 @@ body {
 .job-news > .card {
   padding: 20px;
 }
+
+.app-card-container {
+  background-color: transparent;
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  background-color: rgba(255,255,255,.5);
+  padding: 40px;
+}
+
+.app-card-container a {
+  color: #fff31c;
+}
+
+.card-block {
+  margin-top: 5px;
+}

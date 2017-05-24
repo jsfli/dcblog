@@ -1,12 +1,67 @@
-<h1>About Me</h1>
+<div class="app-card-container">
+  <div class="card">
+    <h3>關你能事</h3>
 
-<hr>
-<div class="row">
-  <div class="col-md-8">
-    <%= image_tag "Profile.jpg", width: 500, alt: "Profile Image "%>
-  </div>
-  <div class="col-md-4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <div class="row">
+      <div class="col-md-5">
+        <%= image_tag "wk.jpg", width: 300, alt: "Profile Image", class: 'profile-img'%>
+      </div>
+      <div class="col-md-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controller="jobHistory"
+          >
+            Job History
+          </button>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#education"
+            aria-expanded="false"
+            aria-controller="education"
+          >
+            Education
+          </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              Probably unemployable
+            </div>
+            <div class="card card-block">
+              Currently unemployed
+            </div>
+            <div class="card card-block">
+              Never been employed
+            </div>
+          </div>
+
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              Fu Kin University (福建大學)
+            </div>
+            <div class="card card-block">
+              Fu Kin Secondary School（福建中學）
+            </div>
+            <div class="card card-block">
+              Fu Kin Primary School（福建小學）
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>
   </div>
 </div>
