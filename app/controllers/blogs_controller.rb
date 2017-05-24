@@ -15,7 +15,7 @@ class BlogsController < ApplicationController
       @blogs = Blog.published.recent.page(params[:page]).per(5)
     end
     # default page content concerns over ride
-    @page_title = "WebDev大減價"
+    @page_title = "Web Dev On Sales"
   end
 
   # GET /blogs/1

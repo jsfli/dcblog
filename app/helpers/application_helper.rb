@@ -25,27 +25,27 @@ module ApplicationHelper
     [
       {
         url: root_path,
-        title: '天橋底'
+        title: 'Home'
       },
       {
         url: about_me_path,
-        title: '關你能事'
+        title: 'About Me'
       },
       {
         url: contact_path,
-        title: '999'
+        title: 'Contact Me'
       },
       {
         url: job_news_path,
-        title: '失業大聯盟'
+        title: 'HK Job News'
       },
       {
         url: blogs_path,
-        title: '大減價心路歷程'
+        title: 'Blog'
       },
       {
         url: portfolios_path,
-        title: '乞米周身都'
+        title: 'Portfolio'
       },
     ]
 
