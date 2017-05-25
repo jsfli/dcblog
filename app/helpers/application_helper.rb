@@ -29,11 +29,11 @@ module ApplicationHelper
       },
       {
         url: about_me_path,
-        title: 'About Me'
+        title: 'About'
       },
       {
         url: contact_path,
-        title: 'Contact Me'
+        title: 'Contact'
       },
       {
         url: job_news_path,
@@ -45,7 +45,7 @@ module ApplicationHelper
       },
       {
         url: portfolios_path,
-        title: 'Portfolio'
+        title: 'Happy Moments'
       },
     ]
 
