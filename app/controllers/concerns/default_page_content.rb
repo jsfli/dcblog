@@ -6,7 +6,7 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "WebDev大減價"
-    @seo_keywords = "WebDev大減價"
+    @page_title = "Web Dev On Sale"
+    @seo_keywords = "Web Dev On Sale"
   end
 end

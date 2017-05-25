@@ -5,7 +5,7 @@
     <hr>
     <div class="row">
       <div class="col-md-5">
-        <%= image_tag "Profile.jpg", width: 300, alt: "Profile Image", class: 'profile-img'%>
+        <%= image_tag "Profile.jpg", width: 380, alt: "Profile Image", class: 'profile-img'%>
         <div class="skills">
           <h3>Skillset</h3>
           <% @skills.each do |skill| %>
@@ -50,6 +50,17 @@
           >
             Education
           </button>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#hobbies"
+            aria-expanded="false"
+            aria-controller="hobbies"
+          >
+            Hobbies
+          </button>
         </p>
 
         <p>
@@ -67,13 +78,25 @@
 
           <div class="collapse" id="education">
             <div class="card card-block">
-              Fu Kin University (福建大學)
+              福建大學
             </div>
             <div class="card card-block">
-              Fu Kin Secondary School（福建中學）
+              福建中學
             </div>
             <div class="card card-block">
-              Fu Kin Primary School（福建小學）
+              福建小學
+            </div>
+          </div>
+
+          <div class="collapse" id="hobbies">
+            <div class="card card-block">
+              Hobby 1
+            </div>
+            <div class="card card-block">
+              Hobby 2
+            </div>
+            <div class="card card-block">
+              Hobby 3
             </div>
           </div>
         </p>
