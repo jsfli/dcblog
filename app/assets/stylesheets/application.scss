@@ -223,7 +223,7 @@ h6, .h6 {
 }
 
 .job-news {
-  color: black;
+  color: white;
   margin: 10px;
 }
 
@@ -232,6 +232,7 @@ h6, .h6 {
 }
 
 .job-news > .card {
+  background-color: rgba(0,0,0,0.5);
   padding: 20px;
 }
 
