@@ -237,13 +237,13 @@ h6, .h6 {
 
 .app-card-container {
   background-color: transparent;
-  color: black;
+  color: white;
   text-align: left;
 }
 
 .app-card-container > .card {
-  background-color: rgba(255,255,255,.5);
-  padding: 40px;
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
 }
 
 .app-card-container a {
@@ -262,4 +262,9 @@ h6, .h6 {
 .skill {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.home-container {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
 }
